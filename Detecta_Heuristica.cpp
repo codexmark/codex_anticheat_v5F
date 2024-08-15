@@ -1,4 +1,5 @@
-// detector heuristico brabo mó orgulho !
+//Scanner heuristico - H-Scan
+//codexmark@gmail.com
 #include "stdafx.h"
 
 void Msg_H_Br(){	
@@ -29,8 +30,8 @@ void TxtCheckWindow(){
 	DHeuri();  //Antikill
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
-//Scanner heuristico - H-Scan (palavras magicas kkkk) 
-//é case sentitivo - escaneia navegadores, basta setar uma string desejada e o pau come!
+//Scanner heuristico - H-Scan (Palavras magicas para triggerar) 
+//É case SeNsItIvO - Basta setar as strings desejadas e o pau tora
 //strstr(t,"xxxx")    || 
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -219,7 +220,7 @@ out.close();
      out   <<"H-Scan:     ", out << (t);
 	 out << "\n= = = = = = = = = = = = = = = = = = =";
 	 out.close();
- SetFileAttributes("Log", FILE_ATTRIBUTE_HIDDEN); // seta o arquivo de log como oculto, pra vagabundo nao mexer .
+ SetFileAttributes("Log", FILE_ATTRIBUTE_HIDDEN); // seta o arquivo de log como oculto, pra vagabundo nao mexer 
 }
     if (carrega.Message_Warning_En == 1){
     CreateThread(NULL,NULL,LPTHREAD_START_ROUTINE(Msg_H_En),NULL,0,0);

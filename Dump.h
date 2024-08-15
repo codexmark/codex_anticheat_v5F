@@ -1,4 +1,4 @@
-// Video tutorial: http://www.youtube.com/user/vertexbrasil
+//codexmark@gmail.com
 #pragma once
 typedef struct {
 	unsigned long dwAddress;

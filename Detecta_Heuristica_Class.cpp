@@ -1,4 +1,5 @@
-// Video tutorial: http://www.youtube.com/user/vertexbrasil
+//Heuristica de janela - HC-Scan 
+//codexmark@gmail.com
 #include "StdAfx.h"
 
 
@@ -21,15 +22,16 @@ BOOL CALLBACK heurclass(HWND hwnd, LPARAM lParam){
     GetClassName(hwnd, y, 60);
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
-//heuristica class janela - HC-Scan 
-//nao pe case sensitiva - encontra usando o [Handler 1.5 by Oliver Bock / Classname]  << valeu pelo codigo  !!
-//_tcsstr(y,"xxxx")  apenas uma palavra sem espaços vazios
+//Heuristica class janela - HC-Scan 
+//Não é case sensitiva - encontra usando o [Handler 1.5 by Oliver Bock / Classname]  << valeu pelo codigo  !!
+//Apenas uma string por vez, sem espaços 
+//_tcsstr(y,"xxxx")  
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
 if (_tcsstr(y,"ProcessHacker")          || //process hacker 
 	_tcsstr(y,"PROCEXP")                || //ProcessExplorer
 	_tcsstr(y,"TFormMain.UnicodeClass") || //HxD
-	_tcsstr(y,"WindowsForms10")         || 	 //qq coisa feita em asp ou delphi 
+	_tcsstr(y,"WindowsForms10")         || //qq coisa feita em asp ou delphi 
 	_tcsstr(y,"obj_Form")){                //Hidetoolz
 
 if (carrega.Log_Txt_Hack == 1){

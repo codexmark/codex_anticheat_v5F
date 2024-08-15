@@ -1,8 +1,9 @@
-// Video tutorial: http://www.youtube.com/user/vertexbrasil
+//Heuristic scan - HNC-Scan (Bad words)
+//codexmark@gmail.com
 #include "StdAfx.h"
 
 #define TitleLen 1024
-#define BadWordsCount 128
+#define BadWordsCount 128  //<<<<< NUNCA ESQUEÇA DE ATUALIZAR ESSE VALOR CASO ADICIONE OU REMOVA PALAVRAS ABAIXO
 
 void Msg_HNC_Br(){	
 	MessageBoxA(NULL,"HNC-Scan\n\nConteúdo suspeito detectado!", carrega.Nome_das_Janelas, MB_SERVICE_NOTIFICATION | MB_ICONWARNING);
@@ -33,11 +34,11 @@ Anti_BadWords Anti_BadWord [BadWordsCount] =
 {
 ////////////////////////////////////////////////////////////////////////////////////////////////
 //Heuristic scan - HNC-Scan (Bad words) 
-//Are Case-sensitive - Dont scan Web Brosers
+//É Case sensitive - Não procura nos navegadores
 //{{"xxx"}}, 
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
-	//NEVER FORGOT TO UPDATE BadWordsCount ABOVE
+	//NUNCA ESQUEÇA DE ATUALIZAR BadWordsCount ACIMA
 
 	{{"autocliker"}},
 	{{"elite"}},
@@ -167,7 +168,7 @@ Anti_BadWords Anti_BadWord [BadWordsCount] =
 	{{"dupe"}},
 	{{"?olidpro×?"}},
 	{{"1.22"}}};      //solid proxy
-	//NEVER FORGOT TO UPDATE BadWordsCount NUMBER
+	//Nunca esqueça de atulizar o  numero de BadWordsCount 
 
  
 extern Anti_BadWords Anti_BadWord[BadWordsCount] ;

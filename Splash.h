@@ -1,4 +1,4 @@
-// Video tutorial: http://www.youtube.com/user/vertexbrasil
+//codexmark@gmail.com
 
 #ifndef _ABHI_SPLASH_H_
 #define _ABHI_SPLASH_H_

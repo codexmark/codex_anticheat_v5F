@@ -1,4 +1,4 @@
-﻿// Video tutorial: http://www.youtube.com/user/vertexbrasil
+﻿//codexmark@gmail.com
 #include "StdAfx.h"
 CARREGAR carrega;
 HANDLE m_DllModule;

@@ -1,4 +1,4 @@
-// Video tutorial: http://www.youtube.com/user/vertexbrasil
+//codexmark@gmail.com
 #include "stdafx.h"
 
 void Msg_Sf_Br(){

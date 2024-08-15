@@ -1,4 +1,5 @@
- // Video tutorial: http://www.youtube.com/user/vertexbrasil
+//Detector
+//codexmark@gmail.com
 #include "StdAfx.h"
 
 #define WINNT 1 // Define for using EndTask API

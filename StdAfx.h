@@ -1,4 +1,4 @@
-// Video tutorial: http://www.youtube.com/user/vertexbrasil
+//codexmark@gmail.com
 
 #pragma comment(lib, "Urlmon.lib")  //download da internet
 #include <urlmon.h>                 //download da internet

@@ -1,4 +1,4 @@
-// Video tutorial: http://www.youtube.com/user/vertexbrasil
+//codexmark@gmail.com
 void MainThread(void * lpParam);
 void Dll_Inject();
 void DLL_Inject_Thread();

@@ -1,4 +1,5 @@
-// Video tutorial: http://www.youtube.com/user/vertexbrasil
+//Heuristica Nome das Janelas - HW-scan
+//codexmark@gmail.com
 #include "StdAfx.h"
 
 

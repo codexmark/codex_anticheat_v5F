@@ -103,7 +103,7 @@ Este projeto utiliza o código do [Handler 1.5 by Oliver Bock] para facilitar a 
 ### Licença
 Este projeto está licenciado sob a [Licença MIT](LICENSE).
 
-Citations:
+### Fontes
 [1] https://www.sciencedirect.com/science/article/pii/S0004370224001085
 [2] https://www.ajogmfm.org/article/S2589-9333%2823%2900324-5/pdf
 [3] https://link.springer.com/chapter/10.1007/978-3-540-87477-5_24
